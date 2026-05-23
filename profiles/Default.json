@@ -1,0 +1,60 @@
+{
+  "name": "Default",
+  "macros": {
+    "click_spam": {
+      "enabled": true,
+      "key": "f",
+      "cps": 30.0,
+      "jitter_ms": 0,
+      "mode": "toggle",
+      "burst_count": 1,
+      "burst_gap_ms": 0,
+      "hold_mode": false,
+      "humanize": false
+    },
+    "ability": {
+      "enabled": true,
+      "key": "q",
+      "cps": 10.0,
+      "jitter_ms": 4,
+      "mode": "toggle",
+      "burst_count": 1,
+      "burst_gap_ms": 20,
+      "hold_mode": false,
+      "humanize": true
+    },
+    "sequence": {
+      "enabled": false,
+      "steps": [
+        {
+          "key": "shift",
+          "delay_ms": 90
+        },
+        {
+          "key": "f",
+          "delay_ms": 70
+        },
+        {
+          "key": "q",
+          "delay_ms": 150
+        }
+      ],
+      "loop": true
+    }
+  },
+  "hotkeys": {
+    "start_stop": "x1",
+    "emergency": "f12",
+    "toggle_spam": "f2",
+    "toggle_seq": "f3",
+    "cps_up": "f5",
+    "cps_down": "f6",
+    "hotkey_mode": "hold"
+  },
+  "safety": {
+    "roblox_only": false,
+    "test_mode": false,
+    "min_interval_ms": 1,
+    "discord_rpc": true
+  }
+}

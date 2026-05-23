@@ -1,0 +1,5 @@
+{
+  "version": "4.0.0",
+  "download_url": "https://github.com/SEU_USER/FranxxMacro/releases/download/v4.0.0/FranxxMacro.exe",
+  "changelog": "- Versão inicial com sistema de auto-update\n- Coloca este ficheiro num URL público (GitHub raw, pastebin, etc.)\n- Altera 'version' e 'download_url' sempre que lançares uma update"
+}
